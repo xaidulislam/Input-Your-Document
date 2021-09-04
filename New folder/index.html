@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section id="main" class="main">
+    <div id="header">
+      <div class="inner_header container">
+        <img src="img/logo_for_website.png" alt="logo" width="150">
+        <h1>To-Do App</h1>
+        <div class="input_area">
+          <form action="#" class="new_task_area">
+            <label for="input">Add Task Name :</label>
+            <input type="text" id="new_task">
+            <input type="submit" value="Add Task" id="add_task">
+          </form>
+        </div>
+        <div id="taskes">
+          <div class="incomplete_task">
+            <h2>Incomplete Tasks</h2>
+            <ul id="items">
+              <li class="items">
+                <input type="checkbox"><label >Task name</label>
+              </li>
+              <li class="items">
+                <input type="checkbox"><label >Task name</label>
+              </li>
+              <li class="items">
+                <input type="checkbox"><label >Task name</label>
+              </li>
+            </ul>
+          </div>
+          <div class="complete_task">
+            <h2>Complete Task</h2>
+            <ul>
+              <li class="items">Task name<button class="delete">Delete</button></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>

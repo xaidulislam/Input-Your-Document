@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  width: 800px;
+  background-image: linear-gradient(45deg, #fbfbfb, #178ff8);
+  border: 2px solid rgb(126, 125, 125);
+  border-radius: 20px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 40px;
+}
+h1 {
+  color: White;
+  font-size: 40px;
+  font-family: "Rampart One", cursive;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+.input_area {
+  background-image: linear-gradient(180deg, #c4e2fb, #e0b1a2);
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px 1px rgb(148, 144, 144);
+}
+.new_task_area label {
+  color: rgb(2, 40, 73);
+  font-size: 20px;
+  font-family: "Rampart One", cursive;
+}
+#new_task {
+  padding: 6px 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 1px rgb(139, 134, 134);
+}
+#new_task:hover {
+  box-shadow: 0px 0px 1px rgb(139, 134, 134);
+}
+#add_task {
+  color: rgb(2, 40, 73);
+  font-size: 15px;
+  font-family: "Rampart One", cursive;
+  background-color: #D5C4C5;
+  border: 0px solid;
+  box-shadow: 0px 2px rgb(139, 134, 134);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+#add_task:hover {
+  box-shadow: 0px 0px 1px;
+}
+#taskes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.incomplete_task {
+  background-image: linear-gradient(45deg,#50e4e4, #d4af69);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px 1px rgb(148, 144, 144);
+}
+h2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  border-bottom: 1px solid rgb(148, 144, 144);
+  padding-bottom: 2px;
+}
+
+.complete_task {
+  background-image: linear-gradient(45deg, #50e4e4, #d4af69);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px 1px rgb(148, 144, 144);
+}
+ul {
+  padding: 0;
+}
+.items {
+  list-style: none;
+  text-align: start;
+  font-size: 20px;
+  font-family: "Rampart One", cursive;
+  border-bottom: 1px dotted rgb(148, 144, 144);
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.delete {
+  background-color: red;
+  color: white;
+  border: 0 solid;
+  padding: 3px 5px;
+  cursor: pointer;
+  float: right;
+}
