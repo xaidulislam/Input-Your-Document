@@ -37,7 +37,7 @@ function addTodo(event) {
   //append todo list
   todoList.appendChild(todoDiv);
   //clear input value
-  todoInput.value =; ""
+  todoInput.value = "";
 }
 
 function deleteCheck(event) {
